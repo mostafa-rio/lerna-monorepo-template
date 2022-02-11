@@ -4,7 +4,7 @@
       "baseUrl": ".",
       "paths": {
         "@shared/*": ["./apps/shared/src/*"],
-        "@fico/*": ["./apps/fico/src/*"]
+        "@app1/*": ["./apps/app1/src/*"]
       }
     },
     "exclude": [

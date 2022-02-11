@@ -6,7 +6,7 @@ const sharedSrc = path.resolve(__dirname, "../shared/src");
 module.exports = {
   configureWebpack: {
     resolve: {
-      modules: [sharedNodeModules], // this will allow `fico` module to import NPM packages from `shared`
+      modules: [sharedNodeModules],
       alias: {
         "@shared": sharedSrc,
       },
