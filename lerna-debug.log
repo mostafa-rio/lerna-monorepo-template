@@ -1,0 +1,51 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'C:\\Users\\mostafa rahmani\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
+0 silly argv   bump: '1.0.1'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath D:\projects\lerna-vue-monorepo
+3 info current version 0.0.0
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly getCurrentBranch
+7 verbose currentBranch master
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
+11 silly hasTags
+12 verbose hasTags false
+13 info Assuming all packages changed
+14 verbose updated fico-kit
+15 verbose updated vue-fresh-app
+16 verbose updated fingercode
+17 verbose updated shared
+18 verbose git-describe undefined => "9c6ffd4"
+19 silly git-describe parsed => {"refCount":"3","sha":"9c6ffd4","isDirty":false}
+20 info execute Skipping releases
+21 silly lifecycle No script for "preversion" in "lerna-vue-monorepo", continuing
+22 silly lifecycle No script for "preversion" in "fico-kit", continuing
+23 silly lifecycle No script for "preversion" in "fingercode", continuing
+24 silly lifecycle No script for "preversion" in "shared", continuing
+25 silly lifecycle No script for "version" in "fico-kit", continuing
+26 silly lifecycle No script for "preversion" in "vue-fresh-app", continuing
+27 silly lifecycle No script for "version" in "shared", continuing
+28 silly lifecycle No script for "version" in "fingercode", continuing
+29 silly lifecycle No script for "version" in "vue-fresh-app", continuing
+30 silly lifecycle No script for "version" in "lerna-vue-monorepo", continuing
+31 silly gitAdd [
+31 silly gitAdd   'apps/fico-ui/package.json',
+31 silly gitAdd   'apps/shared/package.json',
+31 silly gitAdd   'apps/shared/package-lock.json',
+31 silly gitAdd   'apps/fingercode-nuxt/package.json',
+31 silly gitAdd   'apps/fingercode-nuxt/package-lock.json',
+31 silly gitAdd   'apps/fico/package.json',
+31 silly gitAdd   'lerna.json'
+31 silly gitAdd ]
+32 error Error: Command failed with exit code 128: git add -- apps/fico-ui/package.json apps/shared/package.json apps/shared/package-lock.json apps/fingercode-nuxt/package.json apps/fingercode-nuxt/package-lock.json apps/fico/package.json lerna.json
+32 error fatal: Pathspec 'apps/shared/package.json' is in submodule 'apps/shared'
+32 error     at makeError (D:\projects\lerna-vue-monorepo\node_modules\execa\lib\error.js:60:11)
+32 error     at handlePromise (D:\projects\lerna-vue-monorepo\node_modules\execa\index.js:118:26)
+32 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+32 error     at async Promise.all (index 0)

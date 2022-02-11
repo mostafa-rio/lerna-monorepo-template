@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": ".",
+      "paths": {
+        "@shared/*": ["./apps/shared/src/*"],
+        "@fico/*": ["./apps/fico/src/*"]
+      }
+    },
+    "exclude": [
+      "node_modules"
+    ]
+  }

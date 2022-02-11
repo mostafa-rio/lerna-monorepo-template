@@ -1,0 +1,7 @@
+{
+    "packages": [
+        "apps/*"
+    ],
+    "versions": "independent",
+    "version": "1.0.1"
+}
